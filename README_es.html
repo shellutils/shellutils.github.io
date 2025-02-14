@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shell Utils Framework</title>
+    <style>
+        .center {
+            text-align: center;
+        }
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        pre {
+            background-color: #f6f8fa;
+            padding: 16px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1><a href="https://github.com/felipefacundes/shell_utils">Shell Utils Framework 🐚</a></h1>
+
+<p>
+    <a href="./README_pt.html"><img src="https://img.shields.io/badge/lang-pt--BR-green.svg" alt="pt-BR"></a>
+    <a href="./README_es.html"><img src="https://img.shields.io/badge/lang-es-yellow.svg" alt="es"></a>
+    <a href="./README.html"><img src="https://img.shields.io/badge/lang-en-red.svg" alt="en"></a>
+</p>
+
+<div class="center">
+    <img src="./icons/logo.png" alt="Shell Utils Logo">
+    
+    <p><em>Una Colección Dinámica de Scripts Shell con Propósito Educacional</em></p>
+    
+    <img src="https://img.shields.io/github/stars/felipefacundes/shell_utils?style=social" alt="GitHub stars">
+    <img src="https://img.shields.io/github/forks/felipefacundes/shell_utils?style=social" alt="GitHub forks">
+    <img src="https://img.shields.io/github/issues/felipefacundes/shell_utils" alt="GitHub issues">
+    <img src="https://img.shields.io/github/license/felipefacundes/shell_utils" alt="GitHub license">
+</div>
+
+<h2>🌟 Visión General</h2>
+
+<p>Shell Utils es un marco educativo diseñado para hacer que la programación en shell sea accesible y poderosa. Es el resultado de un trabajo exhaustivo durante muchos años, ahora disponible en GitHub. Con más de 280 scripts documentados, atiende tanto a principiantes como a usuarios avanzados. Su gran diferenciador es la capacidad de interactuar con los principales shells: <strong>Bash, Zsh y Fish</strong>.</p>
+
+<p>✅ Incluye scripts de terceros, como los de <a href="http://www.fmwconcepts.com/imagemagick/index.php">Fred's Imagemagick</a> <em>(créditos mantenidos en los scripts)</em>.</p>
+
+<h3>✨ Características Principales</h3>
+
+<ul>
+    <li>Reconocimiento dinámico de scripts, funciones, variables y alias</li>
+    <li>Documentación completa y menús de ayuda</li>
+    <li>Compatibilidad entre shells (fish, zsh, bash)</li>
+    <li>Rica colección de scripts utilitarios</li>
+    <li>Recursos educativos y tutoriales</li>
+</ul>
+
+<p>📌 El script <code>help_shell</code> lista funciones como <code>sed_info</code> (para ayudar con el uso de sed), proporcionando tutoriales rápidos sobre comandos de Linux. Para crear una función simple, solo crea un archivo <code>función.sh</code> y guárdalo en <code>~/.shell_utils/scripts/helps/</code>. El script <code>help_shell</code> podrá leerlos y mostrar una lista completa de funciones pedagógicas y mucho más.</p>
+
+<h2>📁 Estructura de Directorios</h2>
+
+<pre>
+~/.shell_utils/
+├── scripts/     # Scripts principales
+│   ├── faqs/    # Scripts de tutorial y guías
+│   └── helps/   # Funciones auxiliares educativas
+├── functions/   # Funciones personalizadas
+├── variables/   # Variables de entorno
+└── aliases/     # Alias del shell
+</pre>
+
+<h2>🔧 Recursos y Herramientas</h2>
+
+<ul>
+    <li><strong>Alarma</strong>: Alarma multilingüe, con capacidad de ejecutar comandos externos, función de repetición y más.</li>
+    <li><strong>Calendario</strong>: Calendario completo con soporte para días festivos</li>
+    <li><strong>Herramientas de Video</strong>: Grabador de pantalla y administradores de videos</li>
+    <li><strong>Herramientas de Audio</strong>: Generar frecuencias de audio y administradores de sonido</li>
+    <li><strong>Herramientas de Procesamiento de Imágenes</strong>: Convertir, redimensionar y manipular imágenes</li>
+    <li><strong>Gestión de Temas</strong>:
+        <ul>
+            <li>Temas de GRUB</li>
+            <li>Temas de Terminal</li>
+            <li>Colecciones de arte ASCII</li>
+        </ul>
+    </li>
+    <li><strong>Utilidades de Color</strong>:
+        <ul>
+            <li>Paleta de colores ANSI</li>
+            <li>Convertidor de Hex a ANSI</li>
+        </ul>
+    </li>
+    <li><strong>Herramientas para Gestores de Ventanas</strong>: Soporte para i3, awesome, openbox y otros</li>
+    <li><strong>Integración con Herramientas de Terceros</strong>: Incluyendo scripts de <a href="http://www.fmwconcepts.com/imagemagick/index.php">"Fred's Imagemagick"</a></li>
+</ul>
+
+<h2>🚀 Instalación</h2>
+
+<h3>Opción 1: Instalación en Una Línea</h3>
+<pre>bash -c "$(curl -fsSL https://raw.githubusercontent.com/felipefacundes/shell_utils/refs/heads/main/install.sh)"</pre>
+
+<h3>Opción 2: Instalación Manual</h3>
+<pre>git clone https://github.com/felipefacundes/shell_utils ~/.shell_utils
+bash ~/.shell_utils/install.sh</pre>
+
+<h2>🔄 Dependencias</h2>
+
+<p>El instalador detecta automáticamente tu shell (fish, zsh o bash) e instala las dependencias necesarias:</p>
+<ul>
+    <li>Para usuarios de bash: oh-my-bash</li>
+    <li>Para usuarios de zsh: oh-my-zsh</li>
+</ul>
+
+<h2>🤝 Contribuyendo</h2>
+
+<p>¡Las contribuciones son bienvenidas! Siéntete libre de enviar un Pull Request. Para cambios importantes, por favor abre un issue primero para discutir lo que te gustaría cambiar.</p>
+
+<h2>📜 Licencia</h2>
+
+<p>Este proyecto está licenciado bajo la Licencia GPLv3 - consulta el archivo <a href="LICENSE">LICENSE</a> para obtener detalles.</p>
+
+<h2>👏 Créditos</h2>
+
+<ul>
+    <li>Creador original: <a href="https://github.com/felipefacundes">Felipe Facundes</a></li>
+    <li>Agradecimientos especiales a todos los contribuyentes y a <a href="http://www.fmwconcepts.com/imagemagick/index.php">Fred's Imagemagick</a> por algunos scripts incluidos</li>
+</ul>
+
+<hr>
+
+<div class="center">
+    <p><strong>Hecho con ❤️ por la comunidad Shell Utils</strong></p>
+    
+    <p>
+        <a href="https://github.com/felipefacundes/shell_utils/issues">Reportar Bug</a> ·
+        <a href="https://github.com/felipefacundes/shell_utils/issues">Solicitar Recurso</a>
+    </p>
+</div>
+
+</body>
+</html>
