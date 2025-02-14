@@ -1,6 +1,6 @@
 # Shell Utils Framework 🐚
 
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](./README_pt.md) [![es](https://img.shields.io/badge/lang-es-yellow.svg)](./README_es.md) [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](./README_pt.html) [![es](https://img.shields.io/badge/lang-es-yellow.svg)](./README_es.html) [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 
 <div align="center">
   
