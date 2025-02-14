@@ -4,14 +4,12 @@
 
 <div align="center">
   
-![Shell Utils Logo](./icons/logo.png)
-
-*A Dynamic Collection of Shell Scripts with Educational Purpose*
-
-![GitHub stars](https://img.shields.io/github/stars/felipefacundes/shell_utils?style=social)
-![GitHub forks](https://img.shields.io/github/forks/felipefacundes/shell_utils?style=social)
-![GitHub issues](https://img.shields.io/github/issues/felipefacundes/shell_utils)
-![GitHub license](https://img.shields.io/github/license/felipefacundes/shell_utils)
+<img src="/icons/logo.png" alt="Shell Utils Logo">
+<p><em>A Dynamic Collection of Shell Scripts with Educational Purpose</em></p>
+<img src="https://img.shields.io/github/stars/felipefacundes/shell_utils?style=social" alt="GitHub stars">
+<img src="https://img.shields.io/github/forks/felipefacundes/shell_utils?style=social" alt="GitHub forks">
+<img src="https://img.shields.io/github/issues/felipefacundes/shell_utils" alt="GitHub issues">
+<img src="https://img.shields.io/github/license/felipefacundes/shell_utils" alt="GitHub license">
 
 </div>
 
@@ -96,8 +94,10 @@ This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) fi
 
 <div align="center">
   
-**Made with ❤️ by the Shell Utils community**
-
-[Report Bug](https://github.com/felipefacundes/shell_utils/issues) · [Request Feature](https://github.com/felipefacundes/shell_utils/issues)
+<p><strong>Made with ❤️ by the Shell Utils community</strong></p>
+<p>
+  <a href="https://github.com/felipefacundes/shell_utils/issues">Report Bug</a> ·
+  <a href="https://github.com/felipefacundes/shell_utils/issues">Request Feature</a>
+</p>
 
 </div>
